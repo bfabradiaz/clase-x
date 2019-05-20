@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(250, 250, 249);
+    width: 100%;
+    height: 100%;
+}
+/* 
+#menu .barra{
+    width:100%;
+    height:80px;
+    background-color:rgb(209, 205, 205);
+} */
+
+#cajas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    transition:0.3s;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.10);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.10);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.10); 
+}
+
+
+.imagen{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.imagen img{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgb(235, 233, 233) ;
+}
+
+.card .texto{
+    background-color: white;
+    width: 250px;
+    height: 60px;
+    margin: -20px;
+    margin-top: -10px;
+    padding: 20px;
+    /* border-bottom: 1px solid rgb(235, 233, 233) ; */
+    text-align: justify;
+    font-family: -apple-system,  'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.texto h4{
+    color: rgb(168, 167, 167)
+}
+
+.texto h3{
+    color: rgb(100, 100, 100)
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    -webkit-box-shadow: 10px 10px 76px -19px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 76px -19px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 76px -19px rgba(0,0,0,0.30);
+}
